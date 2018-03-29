@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="#303F9F"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/topImg"
+        style="@style/myImageStyle"
+        android:src="@drawable/gwgimage" />
+
+    <TextView
+        android:id="@+id/topText"
+        style="@style/myUdacityText"
+        android:layout_below="@+id/topImg"
+        android:text="@string/Udacity" />
+
+    <TextView
+        android:id="@+id/nextText1"
+        style="@style/myLayoutText"
+        android:layout_below="@+id/topText"
+        android:text="@string/Latham" />
+
+    <TextView
+        android:id="@+id/nextText2"
+        style="@style/myLayoutText"
+        android:layout_below="@+id/nextText1"
+        android:text="@string/Mountain" />
+
+    <TextView
+        android:id="@+id/nextText3"
+        style="@style/myLayoutText"
+        android:layout_below="@+id/nextText2"
+        android:autoLink="phone"
+        android:text="@string/Phone" />
+
+    <TextView
+        android:id="@+id/nextText4"
+        style="@style/myUdacityWeb"
+        android:layout_below="@+id/nextText3"
+        android:layout_marginTop="20sp"
+        android:autoLink="web"
+        android:text="@string/dotCom" />
+
+</RelativeLayout>

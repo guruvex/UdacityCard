@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UdacityCard</string>
+    <string name="Udacity">Udacity</string>
+    <string name="Latham">2465 Latham St</string>
+    <string name="Mountain">Mountain View, CA 94043</string>
+    <string name="Phone">650-555-5555</string>
+    <string name="dotCom">www.udacity.com</string>
+</resources>
